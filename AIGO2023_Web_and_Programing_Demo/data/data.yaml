@@ -1,0 +1,10 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# download command/URL (optional)
+train: ./data/deer/train     # 118287 images
+val: ./data/deer/valid   # 5000 images
+nc: 1
+
+# class names
+names:
+- golf

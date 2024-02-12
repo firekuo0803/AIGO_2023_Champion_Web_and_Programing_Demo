@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --font-rubik-microbe: "Rubik Microbe";
+  --font-zcool-kuaile: "ZCOOL KuaiLe";
+  --font-yusei-magic: "Yusei Magic";
+
+  /* font sizes */
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-41xl: 60px;
+
+  /* Paddings */
+  --padding-21xl: 40px;
+  --padding-31xl: 50px;
+  --padding-11xs: 2px;
+
+  /* border radiuses */
+  --br-11xl: 30px;
+  --br-lg: 18px;
+  --br-lgi: 19px;
+}

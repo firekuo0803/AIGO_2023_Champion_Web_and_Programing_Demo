@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+    <link rel="stylesheet" href="../static/global.css" />
+    <link rel="stylesheet" href="../static/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ZCOOL KuaiLe:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik Microbe:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Yusei Magic:wght@400&display=swap"
+    />
+  </head>
+  <body>
+<!--page1-->
+    <header class="component-parent">
+      <div class="instance-parent" id = "list">
+
+      </div>
+
+<!--title1-->
+      <div class="frame-child"></div>
+      <div class="div">智能冰箱統計</div>
+      <img class="frame-item" alt="" src="../static/public/group-3.svg" onclick="run()"/>
+
+      <img class="align-justify-icon" alt="" src="../static/public/alignjustify.svg" onclick="run()" />
+    </header>
+
+<!--page2-->
+    <div id="frameLink" class="popup-overlay" style="display: none">
+      <div class="component-root">
+        <div class="instance-group" id = "page2">
+
+        </div>
+
+<!--title2-->
+        <div class="frame-parent7">
+          <div class="apple-parent8" id = "text">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <script src = "../static/func.js"></script>
+  </body>
+</html>
